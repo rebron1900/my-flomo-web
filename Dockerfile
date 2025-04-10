@@ -1,7 +1,7 @@
 FROM node:lts AS builder
 
 # 服务端 API 地址
-ENV VITE_API_BASE_URL="https://flomo-api.jerryshell.eu.org"
+ENV VITE_API_BASE_URL="https://flomo.190102.xyz:4433"
 
 ENV GIT_BASE_URL="https://github.com"
 
